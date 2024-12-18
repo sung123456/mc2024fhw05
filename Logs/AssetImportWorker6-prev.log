@@ -1,0 +1,982 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.46f1 (8e9b8558c41a) revision 9345925'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'zh' Physical Memory: 48770 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.46f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker6
+-projectPath
+C:/Users/USER/Documents/è™›æ“¬ç¶²ç´…/mc2024fhw05
+-logFile
+Logs/AssetImportWorker6.log
+-srvPort
+10098
+Successfully changed project path to: C:/Users/USER/Documents/è™›æ“¬ç¶²ç´…/mc2024fhw05
+C:/Users/USER/Documents/è™›æ“¬ç¶²ç´…/mc2024fhw05
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [15264]  Target information:
+
+Player connection [15264]  * "[IP] 172.20.10.7 [Port] 0 [Flags] 2 [Guid] 3102585643 [EditorId] 3102585643 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-SIC7VNQJ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [15264] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [15264] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+Refreshing native plugins compatible for Editor in 5.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.46f1 (8e9b8558c41a)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.46f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/USER/Documents/è™›æ“¬ç¶²ç´…/mc2024fhw05/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4060 Laptop GPU (ID=0x28e0)
+    Vendor:   NVIDIA
+    VRAM:     7957 MB
+    Driver:   32.0.15.6590
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.46f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.46f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.46f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56608
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.46f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.46f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.010103 seconds.
+- Loaded All Assemblies, in  0.314 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.186 seconds
+Domain Reload Profiling: 497ms
+	BeginReloadAssembly (96ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (61ms)
+	LoadAllAssembliesAndSetupDomain (118ms)
+		LoadAssemblies (94ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (117ms)
+			TypeCache.Refresh (116ms)
+				TypeCache.ScanAssembly (104ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (186ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (152ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (105ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.568 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:31 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs:11 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:33 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:48 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x00525] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:208 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:32 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:76 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:114 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x00032] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:48 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:22 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.836 seconds
+Domain Reload Profiling: 1402ms
+	BeginReloadAssembly (103ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (16ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (401ms)
+		LoadAssemblies (264ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (195ms)
+			TypeCache.Refresh (171ms)
+				TypeCache.ScanAssembly (147ms)
+			ScanForSourceGeneratedMonoScriptInfo (18ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (836ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (722ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (51ms)
+			ProcessInitializeOnLoadAttributes (639ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Shader 'VRM10/Universal Render Pipeline/MToon10': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'VRM10/Universal Render Pipeline/MToon10': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 2.97 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3689 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (181.2 KB). Loaded Objects now: 4159.
+Memory consumption went from 137.9 MB to 137.7 MB.
+Total: 14.526100 ms (FindLiveObjects: 0.597700 ms CreateObjectMapping: 0.126400 ms MarkObjects: 13.465900 ms  DeleteObjects: 0.331000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 399665.877421 seconds.
+  path: Assets/Assets/UniGLTF/Editor/JsonSchema/Schemas/ObjectJsonSchema.cs
+  artifactKey: Guid(ae9dcedb49a42f9449672e00b34e8598) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/UniGLTF/Editor/JsonSchema/Schemas/ObjectJsonSchema.cs using Guid(ae9dcedb49a42f9449672e00b34e8598) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'f70d2e338c4df0d048e0029c4e1bb51c') in 0.109519 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Assets/UniGLTF/Editor/UniGLTF/Serialization/SerializerGenerator.cs
+  artifactKey: Guid(a9c53a1e9bb8c9244927b7a7041e8e3a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/UniGLTF/Editor/UniGLTF/Serialization/SerializerGenerator.cs using Guid(a9c53a1e9bb8c9244927b7a7041e8e3a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '65821174f8592b9628c97cff6a4895bf') in 0.010405 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Assets/VRMShaders/GLTF/IO/Tests/VRMShaders.GLTF.IO.Tests.asmdef
+  artifactKey: Guid(0e517ae7a2a124241a6da9588530ce79) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/VRMShaders/GLTF/IO/Tests/VRMShaders.GLTF.IO.Tests.asmdef using Guid(0e517ae7a2a124241a6da9588530ce79) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'f2a46cfbd85dc6d1f6394d319a99dfb4') in 0.005917 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Assets/UniGLTF/Runtime/UniJSON/IStore/ByteUnion.cs
+  artifactKey: Guid(90602a3805f09cb46a2e25d5e9cb3cf4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/UniGLTF/Runtime/UniJSON/IStore/ByteUnion.cs using Guid(90602a3805f09cb46a2e25d5e9cb3cf4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '50bc35eb06b33bb367bf0bacbaa13f88') in 0.007592 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Assets/VRMShaders/VRM10/MToon10/Editor/MToon10EditorEditMode.cs
+  artifactKey: Guid(22a9170004064d029bc205fc5b5a1acc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/VRMShaders/VRM10/MToon10/Editor/MToon10EditorEditMode.cs using Guid(22a9170004064d029bc205fc5b5a1acc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'c8759917c00270533840f922963aa719') in 0.004918 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Assets/UniGLTF/Runtime/UniJSON/IStore/IStore.cs
+  artifactKey: Guid(558419bba2d829e4884fca9c2046fc3c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/UniGLTF/Runtime/UniJSON/IStore/IStore.cs using Guid(558419bba2d829e4884fca9c2046fc3c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '3fd3a4745544499180d2069eea6fe9af') in 0.009225 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Assets/UniGLTF/Editor/UniGLTF/ExportDialog/M17N.cs
+  artifactKey: Guid(3cde586e47f32424a82a4af6c2ce031e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/UniGLTF/Editor/UniGLTF/ExportDialog/M17N.cs using Guid(3cde586e47f32424a82a4af6c2ce031e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '66e88f39da5a7b927dbdb978f2312291') in 0.004176 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Assets/UniGLTF/Runtime/UniHumanoid/PoseModifier/IPoseModifier.cs
+  artifactKey: Guid(973f36da309a48d4ea3c5526a51e957f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/UniGLTF/Runtime/UniHumanoid/PoseModifier/IPoseModifier.cs using Guid(973f36da309a48d4ea3c5526a51e957f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '9a2aa5e1185bb4c381c6460e0626ec0e') in 0.003541 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Assets/VRM/Runtime/FastSpringBone/Registries/Registry.cs
+  artifactKey: Guid(0d3b558d03dd42b184512fe19797ff07) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/VRM/Runtime/FastSpringBone/Registries/Registry.cs using Guid(0d3b558d03dd42b184512fe19797ff07) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '6f70a056f7ca5172b238577a56d2150f') in 0.003294 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/Assets/VRM/Runtime/FastSpringBone/Schedulers/PullTransformJobScheduler.cs
+  artifactKey: Guid(83ca6a73284247c0a809eb9b83b6296b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/VRM/Runtime/FastSpringBone/Schedulers/PullTransformJobScheduler.cs using Guid(83ca6a73284247c0a809eb9b83b6296b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'cab28ef4e3cd640b1778a39442fb8b12') in 0.004909 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Assets/UniGLTF/Runtime/Scenes/LookDev/floor.mat
+  artifactKey: Guid(9f305e56708e458408f1cc23f9412106) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/UniGLTF/Runtime/Scenes/LookDev/floor.mat using Guid(9f305e56708e458408f1cc23f9412106) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'b065aa2422650955d3bf2300bca8cfdd') in 0.018983 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Assets/VRMShaders/VRM10/MToon10/Tests/VRMShaders.VRM10.MToon10.Tests.asmdef
+  artifactKey: Guid(a8e4a462662564e48931da8e2a390e60) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/VRMShaders/VRM10/MToon10/Tests/VRMShaders.VRM10.MToon10.Tests.asmdef using Guid(a8e4a462662564e48931da8e2a390e60) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '4a883d35a46c5cf1e37e40120f30123f') in 0.005637 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Assets/VRMShaders/GLTF/IO/Runtime/PathObject.cs
+  artifactKey: Guid(d16607c9cf9d05e46b5beec82002d4ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/VRMShaders/GLTF/IO/Runtime/PathObject.cs using Guid(d16607c9cf9d05e46b5beec82002d4ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '3d0a9139502bfc57a35f9bd59c9a0d27') in 0.003039 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Assets/UniGLTF/Runtime/UniGLTF/Format/glbTypes.cs
+  artifactKey: Guid(9238dc0c44df9484bbdca85d818c9b73) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/UniGLTF/Runtime/UniGLTF/Format/glbTypes.cs using Guid(9238dc0c44df9484bbdca85d818c9b73) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'df68925f310000b18d01393dbcd7b11f') in 0.004176 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Assets/UniGLTF/Runtime/Scenes/LookDev/moonless_golf_1k.unity
+  artifactKey: Guid(bab9ed11830da31468039cfdbabc0309) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/UniGLTF/Runtime/Scenes/LookDev/moonless_golf_1k.unity using Guid(bab9ed11830da31468039cfdbabc0309) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'eea478d0a21b79ff1bf558c212a48a0e') in 0.003533 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Assets/UniGLTF/Runtime/Scenes/LookDev/lilienstein_1k.unity
+  artifactKey: Guid(f7700a76a2e515041badd0009fc6ba45) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/UniGLTF/Runtime/Scenes/LookDev/lilienstein_1k.unity using Guid(f7700a76a2e515041badd0009fc6ba45) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '7c448ccddb6f151500a47a63cf2125ca') in 0.003935 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Assets/VRMShaders/VRM10/MToon10/Editor/MToonInspector.cs
+  artifactKey: Guid(b8b6f1e6a8a133a4987361f178d9f548) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/VRMShaders/VRM10/MToon10/Editor/MToonInspector.cs using Guid(b8b6f1e6a8a133a4987361f178d9f548) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'd53822e42d3e0df90ec2fe152da47c82') in 0.005797 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Assets/UniGLTF/Runtime/UniJSON/Extensions/ByteExtensions.cs
+  artifactKey: Guid(aa32ad3ea4c1ec540a03225c0d520af9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/UniGLTF/Runtime/UniJSON/Extensions/ByteExtensions.cs using Guid(aa32ad3ea4c1ec540a03225c0d520af9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'ceea02017fc6787ba17c43dc041e37d2') in 0.002978 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Assets/UniGLTF/Editor/UniGLTF/Validation/ValidationExtensions.cs
+  artifactKey: Guid(c3545b8a3783c8940a8fa5effa140e7a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/UniGLTF/Editor/UniGLTF/Validation/ValidationExtensions.cs using Guid(c3545b8a3783c8940a8fa5effa140e7a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '462200558aa9a5d54695971f14d375fc') in 0.002848 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.046996 seconds.
+  path: Assets/Assets/UniGLTF/Editor/UniGLTF/Gizmo/Models/OverlayGizmo.shader
+  artifactKey: Guid(8a83b8ffa4c6d7a44999e8b099ea3f4e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/UniGLTF/Editor/UniGLTF/Gizmo/Models/OverlayGizmo.shader using Guid(8a83b8ffa4c6d7a44999e8b099ea3f4e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '7c3e45ddfc4cfb45c9df951793a580d8') in 0.007690 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Assets/VRMShaders/VRM/MToon/MToon/Samples/Materials/Ex_OutlineWidth_Screen.mat
+  artifactKey: Guid(4f42a26097c877b40a7616aa60580c43) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/VRMShaders/VRM/MToon/MToon/Samples/Materials/Ex_OutlineWidth_Screen.mat using Guid(4f42a26097c877b40a7616aa60580c43) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '2b5c0606935312e97628ccc6f1cbda1e') in 0.004314 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Assets/UniGLTF/Runtime/UniGLTF/Format/ExtensionsAndExtras/gltfExtension.cs
+  artifactKey: Guid(d078ffd4a6179da48af7c4290beeb140) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/UniGLTF/Runtime/UniGLTF/Format/ExtensionsAndExtras/gltfExtension.cs using Guid(d078ffd4a6179da48af7c4290beeb140) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'd4fe375c2ba782fafe9b4c3b3316c419') in 0.004286 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Assets/UniGLTF/Runtime/UniGLTF/IO/MaterialIO/IMaterialDescriptorGenerator.cs
+  artifactKey: Guid(c309fb8ee8534a54b291d408511c9331) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/UniGLTF/Runtime/UniGLTF/IO/MaterialIO/IMaterialDescriptorGenerator.cs using Guid(c309fb8ee8534a54b291d408511c9331) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'f306cb806d3d354996a8e94e2001b41f') in 0.005908 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Assets/VRMShaders/GLTF/IO/Editor/Texture/Exporter/EditorTextureSerializer.cs
+  artifactKey: Guid(6efbb66c1ac168848beead1fe3b16263) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/VRMShaders/GLTF/IO/Editor/Texture/Exporter/EditorTextureSerializer.cs using Guid(6efbb66c1ac168848beead1fe3b16263) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '97896721d3b36a6bc8d598dbdc59bebb') in 0.004669 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Assets/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshVertex0.cs
+  artifactKey: Guid(3f4d5804612c4bddb05ece3a4b29bbdf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/UniGLTF/Runtime/UniGLTF/IO/MeshIO/MeshVertex0.cs using Guid(3f4d5804612c4bddb05ece3a4b29bbdf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'b3115754e92fe29429ff3d3a1374b823') in 0.004303 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Assets/VRM/Tests/SampleTests/Resources/Materials/mtoon_transparent.mat
+  artifactKey: Guid(91b6f2e3d51d4b5409b7ea64d5dce7d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/VRM/Tests/SampleTests/Resources/Materials/mtoon_transparent.mat using Guid(91b6f2e3d51d4b5409b7ea64d5dce7d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'ea351766484b1d5af5d0764043260b9f') in 0.006463 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Assets/UniGLTF/Runtime/UniGLTF/IO/MaterialIO/BuiltInRP/Export/BuiltInGltfMaterialExporter.cs
+  artifactKey: Guid(89f71b1d593633c47bfd4cfef050ae0d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/UniGLTF/Runtime/UniGLTF/IO/MaterialIO/BuiltInRP/Export/BuiltInGltfMaterialExporter.cs using Guid(89f71b1d593633c47bfd4cfef050ae0d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '628c657c6ab88c59f7816951a5345815') in 0.008131 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Assets/VRM/Runtime/IO/MaterialIO/BuiltInRP/Import/Materials/BuiltInVrmMToonMaterialImporter.cs
+  artifactKey: Guid(9278370bf609490fa83b1f7ccdf118c7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/VRM/Runtime/IO/MaterialIO/BuiltInRP/Import/Materials/BuiltInVrmMToonMaterialImporter.cs using Guid(9278370bf609490fa83b1f7ccdf118c7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'fd66e47e60402085fcafa3b9ad485d87') in 0.007473 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Assets/UniGLTF/Runtime/UniGLTF/IO/Parser/GlbFileParser.cs
+  artifactKey: Guid(5ba8d14b45824a97a4e63c2ced2c4bb4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/UniGLTF/Runtime/UniGLTF/IO/Parser/GlbFileParser.cs using Guid(5ba8d14b45824a97a4e63c2ced2c4bb4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '9481ae13f43e4edfdee4d94e1ccc29b1') in 0.003069 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Assets/VRMShaders/VRM10/MToon10/Runtime/UnityShaderLab/MToonDefinedValues/MToon10OutlineModeKeyword.cs
+  artifactKey: Guid(94313b3f0f4943d681f40e4cfbd5b600) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/VRMShaders/VRM10/MToon10/Runtime/UnityShaderLab/MToonDefinedValues/MToon10OutlineModeKeyword.cs using Guid(94313b3f0f4943d681f40e4cfbd5b600) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'ce59ea6d3a93e5bcbdad94387e08d741') in 0.002790 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Assets/VRMShaders/GLTF/IO/Runtime/AwaitCaller/RuntimeOnlyNoThreadAwaitCaller.cs
+  artifactKey: Guid(6d3630f9fecf62f4a8137907b0f7beb2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/VRMShaders/GLTF/IO/Runtime/AwaitCaller/RuntimeOnlyNoThreadAwaitCaller.cs using Guid(6d3630f9fecf62f4a8137907b0f7beb2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '20bbcdb79fee25d0c582617718b2b0d0') in 0.003781 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Assets/VRMShaders/VRM10/MToon10/Runtime/UnityShaderLab/MToonDefinedValues/MToon10EmissiveMapKeyword.cs
+  artifactKey: Guid(c9f4547527b3411aa87d8322ce9d9132) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/VRMShaders/VRM10/MToon10/Runtime/UnityShaderLab/MToonDefinedValues/MToon10EmissiveMapKeyword.cs using Guid(c9f4547527b3411aa87d8322ce9d9132) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '5e2088338008fcabba1ab8841153e8a6') in 0.006697 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Assets/UniGLTF/Runtime/UniGLTF/IO/MeshIO/WeightsAccessor.cs
+  artifactKey: Guid(8a3d76eeac7fd094dabdbcce8d22a9a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/UniGLTF/Runtime/UniGLTF/IO/MeshIO/WeightsAccessor.cs using Guid(8a3d76eeac7fd094dabdbcce8d22a9a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'dcf0621df6a8be6232b1a4144831278b') in 0.003753 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Assets/VRMShaders/VRM/MToon/MToon/Resources/Shaders/MToonCore.cginc
+  artifactKey: Guid(ef6682d138947ed4fbc8fbecfe75cd28) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/VRMShaders/VRM/MToon/MToon/Resources/Shaders/MToonCore.cginc using Guid(ef6682d138947ed4fbc8fbecfe75cd28) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'a865a28377696cc0c0a4d83edaddafab') in 0.003610 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Assets/VRMShaders/VRM10/MToon10/Runtime/UnityShaderLab/Properties/MToon10Meta.cs
+  artifactKey: Guid(4cb4057134654c769422a3618b76bccc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/VRMShaders/VRM10/MToon10/Runtime/UnityShaderLab/Properties/MToon10Meta.cs using Guid(4cb4057134654c769422a3618b76bccc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '2b8b7dec2240bb6be54d6056ba042dbf') in 0.004694 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Assets/UniGLTF/Runtime/Scenes/LookDev/cubemap/lilienstein_1k.exr
+  artifactKey: Guid(eaa0683a2f7e00340b3560fd1e46bc73) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/UniGLTF/Runtime/Scenes/LookDev/cubemap/lilienstein_1k.exr using Guid(eaa0683a2f7e00340b3560fd1e46bc73) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'a60780fcce9b146b7279c92e2417c1f1') in 0.030745 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Assets/UniGLTF/Runtime/UniGLTF/IO/MaterialIO/URP/Import/UrpGltfMaterialDescriptorGenerator.cs
+  artifactKey: Guid(4ae66bf5ee5e1cb44b7dc416727d3bc1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/UniGLTF/Runtime/UniGLTF/IO/MaterialIO/URP/Import/UrpGltfMaterialDescriptorGenerator.cs using Guid(4ae66bf5ee5e1cb44b7dc416727d3bc1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'a9319b0173660044faa984f0bfcb2682') in 0.005066 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Assets/VRMShaders/VRM10/MToon10/Resources/VRM10/vrmc_materials_mtoon_depthonly_fragment.hlsl
+  artifactKey: Guid(68d7d7ebb0ec69440b052da859a20d74) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/VRMShaders/VRM10/MToon10/Resources/VRM10/vrmc_materials_mtoon_depthonly_fragment.hlsl using Guid(68d7d7ebb0ec69440b052da859a20d74) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'e42d13891cec10766b602d6d505f690b') in 0.003554 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Assets/VRM/Runtime/IO/MaterialIO/URP/Import/UrpVrmMaterialDescriptorGenerator.cs
+  artifactKey: Guid(e5aeab73a304ef644b0d20fac93bcfb9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/VRM/Runtime/IO/MaterialIO/URP/Import/UrpVrmMaterialDescriptorGenerator.cs using Guid(e5aeab73a304ef644b0d20fac93bcfb9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '132520680c216f58387f65c53ebdaa6c') in 0.003896 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Assets/VRMShaders/VRM10/MToon10/Runtime/UnityShaderLab/MToonDefinedValues/MToon10AlphaMode.cs
+  artifactKey: Guid(4915ab0041b841b6aa0cdfecae764008) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/VRMShaders/VRM10/MToon10/Runtime/UnityShaderLab/MToonDefinedValues/MToon10AlphaMode.cs using Guid(4915ab0041b841b6aa0cdfecae764008) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '434abe09bc5c2cd2eb6e33b9b8360e3d') in 0.004568 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Assets/VRMShaders/GLTF/IO/Editor/Texture/EditorTextureUtility.cs
+  artifactKey: Guid(20719e2944224be681a607b6db951720) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/VRMShaders/GLTF/IO/Editor/Texture/EditorTextureUtility.cs using Guid(20719e2944224be681a607b6db951720) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'd71fc8fde80f34c0d38dc633c4d96c3e') in 0.004157 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Assets/VRMShaders/VRM/MToon/MToon/Editor/EditorUtils.cs
+  artifactKey: Guid(531922bb16b74a00b81445116c49b09c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/VRMShaders/VRM/MToon/MToon/Editor/EditorUtils.cs using Guid(531922bb16b74a00b81445116c49b09c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'dceeb15ec904ff69f2bf87d0d1664098') in 0.004428 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Assets/VRMShaders/GLTF/IO/Runtime/Texture/Exporter/TextureExportParam.cs
+  artifactKey: Guid(3698d17d1e624396a74390f338fda684) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/VRMShaders/GLTF/IO/Runtime/Texture/Exporter/TextureExportParam.cs using Guid(3698d17d1e624396a74390f338fda684) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '9bf99d8c2a98e61ecc8f546dfbc56390') in 0.005917 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Assets/VRMShaders/VRM10/MToon10/Resources/VRM10/vrmc_materials_mtoon_input.hlsl
+  artifactKey: Guid(c7f37d6d268db6f4da25955d0ca7cb01) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/VRMShaders/VRM10/MToon10/Resources/VRM10/vrmc_materials_mtoon_input.hlsl using Guid(c7f37d6d268db6f4da25955d0ca7cb01) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '795ef7535e6934e63a1302bd0ea73551') in 0.004095 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Assets/VRMShaders/VRM10/MToon10/Runtime/UnityShaderLab/MToonDefinedValues/MToon10OutlineMode.cs
+  artifactKey: Guid(8aece52be2cb42de9bfde4a072e5a6a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/VRMShaders/VRM10/MToon10/Runtime/UnityShaderLab/MToonDefinedValues/MToon10OutlineMode.cs using Guid(8aece52be2cb42de9bfde4a072e5a6a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '866b04bd9a4f3e98dea9e3ecc68a8072') in 0.002989 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 7.733804 seconds.
+  path: Assets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers/PropertyProvider_UnityEngine_UI_AnimationTriggers.cs
+  artifactKey: Guid(cd3b31ed644842c408228db2588779c7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers/PropertyProvider_UnityEngine_UI_AnimationTriggers.cs using Guid(cd3b31ed644842c408228db2588779c7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '0f76a2483f238473b7d103579bf6a9c9') in 0.004407 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers/PropertyProvider_UnityEngine_UI_InputField_EndEditEvent.cs
+  artifactKey: Guid(a73c7a1bf453ee042826cf697fe32b91) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers/PropertyProvider_UnityEngine_UI_InputField_EndEditEvent.cs using Guid(a73c7a1bf453ee042826cf697fe32b91) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'b08374612bc8b8f062782560372bdfda') in 0.024096 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers/PropertyProvider_UnityEngine_UI_Dropdown_OptionDataList.cs
+  artifactKey: Guid(5210449cb3bd6a147add673a01b5dce1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers/PropertyProvider_UnityEngine_UI_Dropdown_OptionDataList.cs using Guid(5210449cb3bd6a147add673a01b5dce1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '7b61662af4c4867732f5b50f475c655a') in 0.007473 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Unity.VisualScripting.Generated/VisualScripting.Core
+  artifactKey: Guid(9b4325a11a4447a4cb9ca6db50cdfc93) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity.VisualScripting.Generated/VisualScripting.Core using Guid(9b4325a11a4447a4cb9ca6db50cdfc93) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'de6b5831a6594f606b2a3dbd635e4e04') in 0.002858 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers/PropertyProvider_UnityEngine_TextCore_Text_SpriteCharacter.cs
+  artifactKey: Guid(90bbc5767b1d0954d9c2ac4d66910ed4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers/PropertyProvider_UnityEngine_TextCore_Text_SpriteCharacter.cs using Guid(90bbc5767b1d0954d9c2ac4d66910ed4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'abf0b10d012f05d99c3ac14663871140') in 0.007171 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers/PropertyProvider_TMPro_TMP_InputField_OnChangeEvent.cs
+  artifactKey: Guid(40b625440f5ece54cb661171ef93406b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers/PropertyProvider_TMPro_TMP_InputField_OnChangeEvent.cs using Guid(40b625440f5ece54cb661171ef93406b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'a09184094b74412fd720cbfc3b738a8c') in 0.005276 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers/PropertyProvider_UnityEngine_TextCore_Text_UnicodeLineBreakingRules.cs
+  artifactKey: Guid(399270b6b98f40a4db708baa973dc4bd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers/PropertyProvider_UnityEngine_TextCore_Text_UnicodeLineBreakingRules.cs using Guid(399270b6b98f40a4db708baa973dc4bd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '47670db2d4dcbbcc652b1c951261528f') in 0.004987 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.439 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:31 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs:11 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:33 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:48 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x00525] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:208 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:32 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:76 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:114 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x0000d] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:33 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:22 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.998 seconds
+Domain Reload Profiling: 1435ms
+	BeginReloadAssembly (167ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (42ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (199ms)
+		LoadAssemblies (259ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (23ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (6ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (999ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (453ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (46ms)
+			ProcessInitializeOnLoadAttributes (381ms)
+			ProcessInitializeOnLoadMethodAttributes (13ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Shader 'VRM10/Universal Render Pipeline/MToon10': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'VRM10/Universal Render Pipeline/MToon10': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 4.94 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3711 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 15 unused Assets / (153.4 KB). Loaded Objects now: 4213.
+Memory consumption went from 133.1 MB to 133.0 MB.
+Total: 15.151800 ms (FindLiveObjects: 0.386300 ms CreateObjectMapping: 0.115200 ms MarkObjects: 14.398800 ms  DeleteObjects: 0.248900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/PropertyProvider_UnityEngine_UI_InputField_SubmitEvent.cs: 0158d585133768c19d604a16c5150b7f -> 
+  custom:scripting/monoscript/fileName/PropertyProvider_UnityEngine_TextCore_GlyphMetrics.cs: eabf71f3c03c37c0c7f23edd5cbe1162 -> 
+  custom:scripting/monoscript/fileName/PropertyProvider_UnityEngine_UI_ScrollRect_ScrollRectEvent.cs: e4c8516284bf25b102d63c464fb7e15d -> 
+  custom:scripting/monoscript/fileName/PropertyProvider_TMPro_TMP_FontWeightPair.cs: 7018d8f97ea3f99cee146e66e59eb094 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/PropertyProvider_TMPro_TMP_GlyphPairAdjustmentRecord.cs: 8b81f44b4d25a8dc83a83602243e54ff -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/monoscript/fileName/PropertyProvider_UnityEngine_TextCore_Text_TextStyle.cs: eb1c166a308f6740662692f9574fc091 -> 
+  custom:scripting/monoscript/fileName/PropertyProvider_TMPro_TMP_InputField_TextSelectionEvent.cs: 515a9a6914de53af16f9f3b16e45daa4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/PropertyProvider_TMPro_TextAlignmentOptions.cs: 39cd5fe84e8066bc3e954961d7e15819 -> 
+  custom:scripting/monoscript/fileName/PropertyProvider_TMPro_TMP_Character.cs: eaa72c8e378463b7267f14eb54ec33b5 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/PropertyProvider_UnityEngine_UI_Button_ButtonClickedEvent.cs: b93ebf738c61d1c891755c6725f48604 -> 
+  custom:scripting/monoscript/fileName/PropertyProvider_UnityEngine_UI_Scrollbar_ScrollEvent.cs: fd54ec78326ea556b1505266fe98a01d -> 
+  custom:scripting/monoscript/fileName/PropertyProvider_UnityEngine_UI_Toggle_ToggleEvent.cs: bfcc8ccf33149947039e7ca40bc97785 -> 
+  custom:scripting/monoscript/fileName/PropertyProvider_TMPro_TMP_SpriteCharacter.cs: 8599e0a3d7eaeb40f13c76a6e99f7053 -> 
+  custom:scripting/monoscript/fileName/PropertyProvider_UnityEngine_TextCore_Text_UnicodeLineBreakingRules.cs: 73c6fb186280151f1d6b820f0f45fecd -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/PropertyProvider_TMPro_TMP_Style.cs: 8d7eef81843e9fddd6a990b921a6e3c1 -> 
+  custom:scripting/monoscript/fileName/PropertyProvider_UnityEngine_TextCore_Text_FontWeightPair.cs: d5455aa2368330e45f1f09d94009c4c0 -> 
+  custom:scripting/monoscript/fileName/PropertyProvider_UnityEngine_TextCore_Text_SpriteGlyph.cs: b06b3e139481bab6144063213f525381 -> 
+  custom:scripting/monoscript/fileName/PropertyProvider_UnityEngine_TextCore_LowLevel_GlyphPairAdjustmentRecord.cs: bdb2dd6cca050c67034132d9f8cd4140 -> 
+  custom:scripting/monoscript/fileName/PropertyProvider_UnityEngine_TextCore_Text_Character.cs: d0272ab30945368704c767a2beb04b50 -> 
+  custom:scripting/monoscript/fileName/PropertyProvider_UnityEngine_UI_ColorBlock.cs: e918f6ef237d0e8d4bf87bae2f3111f8 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/PropertyProvider_UnityEngine_UI_InputField_EndEditEvent.cs: fe389e2642133f5a6de3efd4d634a724 -> 
+  custom:scripting/monoscript/fileName/PropertyProvider_TMPro_TMP_InputField_SelectionEvent.cs: 264f66097bdfcbb706d524ac5c46b504 -> 
+  custom:scripting/monoscript/fileName/PropertyProvider_VRM_VRMFirstPerson_RendererFirstPersonFlags.cs: 9b5d098f8ac49d7a8cb4809346d6f7d5 -> 
+  custom:scripting/monoscript/fileName/PropertyProvider_TMPro_TMP_Dropdown_OptionDataList.cs: bbeaf26c2714e7be0fc0a30103efeae2 -> 
+  custom:scripting/monoscript/fileName/PropertyProvider_UnityEngine_EventSystems_EventTrigger_TriggerEvent.cs: 3f230b25f026b173452f63f60a0946b2 -> 
+  custom:scripting/monoscript/fileName/PropertyProvider_UnityEngine_ParticleSystem_MinMaxGradient.cs: 43f3622b6ae25a6921a8181d72a51958 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/PropertyProvider_UnityEngine_UI_Slider_SliderEvent.cs: 58c372a4711adfe3b86695c242c16ec9 -> 
+  custom:scripting/monoscript/fileName/PropertyProvider_UnityEngine_UI_FontData.cs: 04a625f3ae6938c0e2f2b09c7e021885 -> 
+  custom:scripting/monoscript/fileName/PropertyProvider_UnityEngine_UI_Dropdown_DropdownEvent.cs: 45a3e6ca66368ac9cf0c5924a29d53e1 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/PropertyProvider_TMPro_VerticalAlignmentOptions.cs: e9b0bd2736e9675a8e10569d4105f860 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/PropertyProvider_UnityEngine_Events_UnityEvent.cs: d54f14228eba4b078b8a0723bcb346b5 -> 
+  custom:scripting/monoscript/fileName/PropertyProvider_TMPro_TMP_InputField_SubmitEvent.cs: 7e43cbdf611f91a78865d953ef6f2756 -> 
+  custom:scripting/monoscript/fileName/PropertyProvider_UnityEngine_UI_SpriteState.cs: 02d31574bb2528afbfd2ff98e34f1cc8 -> 
+  custom:scripting/monoscript/fileName/PropertyProvider_TMPro_TMP_Dropdown_DropdownEvent.cs: 0ab6d2752875a63622b5bc5b51d0da2f -> 
+  custom:scripting/monoscript/fileName/PropertyProvider_UnityEngine_UI_AnimationTriggers.cs: 3e792109a275f903c30b2890bb9787d8 -> 
+  custom:scripting/monoscript/fileName/PropertyProvider_VRM_BlendShapeClip.cs: 42373a6999af67218153c5d1d52252fb -> 
+  custom:scripting/monoscript/fileName/PropertyProvider_UnityEngine_TextCore_Glyph.cs: b789eb11fb5963ffba38575f9659984d -> 
+  custom:scripting/monoscript/fileName/PropertyProvider_UnityEngine_UI_MaskableGraphic_CullStateChangedEvent.cs: f51322439471efeea94bdd65b276e2af -> 
+  custom:scripting/monoscript/fileName/PropertyProvider_UnityEngine_ParticleSystem_MinMaxCurve.cs: e4c02bf08300d3b3dcc31ee9f87170ce -> 
+  custom:scripting/monoscript/fileName/PropertyProvider_TMPro_TMP_SpriteGlyph.cs: a88e9c798874d2eb33a1aa1b23b3ca7a -> 
+  custom:scripting/monoscript/fileName/PropertyProvider_UniHumanoid_MuscleDebug_Muscle.cs: 71eb74a3d65cb46eeff552215980aa23 -> 
+  custom:scripting/monoscript/fileName/PropertyProvider_UnityEngine_Events_UnityEventBase.cs: da067928ef8b8c94f9e81d646bc61a1f -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/PropertyProvider_UnityEngine_TextCore_GlyphRect.cs: b870b02cfae947d6a3b6bb70e20675d1 -> 
+  custom:scripting/monoscript/fileName/PropertyProvider_UnityEngine_TextCore_Text_SpriteCharacter.cs: 90dd093cb2912cace82eecc514c56b6b -> 
+  custom:scripting/monoscript/fileName/PropertyProvider_TMPro_TMP_InputField_TouchScreenKeyboardEvent.cs: c2e6705b26a95938b5044b7c0dfa9be4 -> 
+  custom:scripting/monoscript/fileName/PropertyProvider_TMPro_HorizontalAlignmentOptions.cs: 9105e31080cbd3289d0879cacacf5427 -> 
+  custom:scripting/monoscript/fileName/PropertyProvider_UnityEngine_UI_Dropdown_OptionDataList.cs: d2859f95d2197c8bff02dc8536d37ce6 -> 
+  custom:scripting/monoscript/fileName/PropertyProvider_UnityEngine_UI_Navigation.cs: 9b711831434d96c562ac181d234e72cc -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/PropertyProvider_UnityEngine_UI_InputField_OnChangeEvent.cs: c98d2e331388125826417bcc3916b228 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: e0f5881ce6de89375996310bfc053f62 -> 7bb3bc7327edf0447830f6fa6260f186
+  custom:scripting/monoscript/fileName/PropertyProvider_TMPro_TMP_InputField_OnChangeEvent.cs: e77f8a421bb747611cfd723a75bbd230 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.392 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:31 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs:11 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:33 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:48 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x00525] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:208 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:32 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:76 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:114 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x0000d] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:33 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:22 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.995 seconds
+Domain Reload Profiling: 1385ms
+	BeginReloadAssembly (143ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (191ms)
+		LoadAssemblies (243ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (15ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (996ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (435ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (50ms)
+			ProcessInitializeOnLoadAttributes (358ms)
+			ProcessInitializeOnLoadMethodAttributes (14ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Shader 'VRM10/Universal Render Pipeline/MToon10': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'VRM10/Universal Render Pipeline/MToon10': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 4.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3712 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 15 unused Assets / (153.4 KB). Loaded Objects now: 4217.
+Memory consumption went from 133.4 MB to 133.2 MB.
+Total: 12.143200 ms (FindLiveObjects: 0.515100 ms CreateObjectMapping: 0.128300 ms MarkObjects: 11.280200 ms  DeleteObjects: 0.218200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/PropertyProvider_UnityEngine_UI_InputField_SubmitEvent.cs: 0158d585133768c19d604a16c5150b7f -> 
+  custom:scripting/monoscript/fileName/PropertyProvider_UnityEngine_TextCore_GlyphMetrics.cs: eabf71f3c03c37c0c7f23edd5cbe1162 -> 
+  custom:scripting/monoscript/fileName/PropertyProvider_UnityEngine_UI_ScrollRect_ScrollRectEvent.cs: e4c8516284bf25b102d63c464fb7e15d -> 
+  custom:scripting/monoscript/fileName/PropertyProvider_TMPro_TMP_FontWeightPair.cs: 7018d8f97ea3f99cee146e66e59eb094 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/PropertyProvider_TMPro_TMP_GlyphPairAdjustmentRecord.cs: 8b81f44b4d25a8dc83a83602243e54ff -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/monoscript/fileName/PropertyProvider_UnityEngine_TextCore_Text_TextStyle.cs: eb1c166a308f6740662692f9574fc091 -> 
+  custom:scripting/monoscript/fileName/PropertyProvider_TMPro_TMP_InputField_TextSelectionEvent.cs: 515a9a6914de53af16f9f3b16e45daa4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/PropertyProvider_TMPro_TextAlignmentOptions.cs: 39cd5fe84e8066bc3e954961d7e15819 -> 
+  custom:scripting/monoscript/fileName/PropertyProvider_TMPro_TMP_Character.cs: eaa72c8e378463b7267f14eb54ec33b5 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/PropertyProvider_UnityEngine_UI_Button_ButtonClickedEvent.cs: b93ebf738c61d1c891755c6725f48604 -> 
+  custom:scripting/monoscript/fileName/PropertyProvider_UnityEngine_UI_Scrollbar_ScrollEvent.cs: fd54ec78326ea556b1505266fe98a01d -> 
+  custom:scripting/monoscript/fileName/PropertyProvider_UnityEngine_UI_Toggle_ToggleEvent.cs: bfcc8ccf33149947039e7ca40bc97785 -> 
+  custom:scripting/monoscript/fileName/PropertyProvider_TMPro_TMP_SpriteCharacter.cs: 8599e0a3d7eaeb40f13c76a6e99f7053 -> 
+  custom:scripting/monoscript/fileName/PropertyProvider_UnityEngine_TextCore_Text_UnicodeLineBreakingRules.cs: 73c6fb186280151f1d6b820f0f45fecd -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/PropertyProvider_TMPro_TMP_Style.cs: 8d7eef81843e9fddd6a990b921a6e3c1 -> 
+  custom:scripting/monoscript/fileName/PropertyProvider_UnityEngine_TextCore_Text_FontWeightPair.cs: d5455aa2368330e45f1f09d94009c4c0 -> 
+  custom:scripting/monoscript/fileName/PropertyProvider_UnityEngine_TextCore_Text_SpriteGlyph.cs: b06b3e139481bab6144063213f525381 -> 
+  custom:scripting/monoscript/fileName/PropertyProvider_UnityEngine_TextCore_LowLevel_GlyphPairAdjustmentRecord.cs: bdb2dd6cca050c67034132d9f8cd4140 -> 
+  custom:scripting/monoscript/fileName/PropertyProvider_UnityEngine_TextCore_Text_Character.cs: d0272ab30945368704c767a2beb04b50 -> 
+  custom:scripting/monoscript/fileName/PropertyProvider_UnityEngine_UI_ColorBlock.cs: e918f6ef237d0e8d4bf87bae2f3111f8 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/PropertyProvider_UnityEngine_UI_InputField_EndEditEvent.cs: fe389e2642133f5a6de3efd4d634a724 -> 
+  custom:scripting/monoscript/fileName/PropertyProvider_TMPro_TMP_InputField_SelectionEvent.cs: 264f66097bdfcbb706d524ac5c46b504 -> 
+  custom:scripting/monoscript/fileName/PropertyProvider_VRM_VRMFirstPerson_RendererFirstPersonFlags.cs: 9b5d098f8ac49d7a8cb4809346d6f7d5 -> 
+  custom:scripting/monoscript/fileName/PropertyProvider_TMPro_TMP_Dropdown_OptionDataList.cs: bbeaf26c2714e7be0fc0a30103efeae2 -> 
+  custom:scripting/monoscript/fileName/PropertyProvider_UnityEngine_EventSystems_EventTrigger_TriggerEvent.cs: 3f230b25f026b173452f63f60a0946b2 -> 
+  custom:scripting/monoscript/fileName/PropertyProvider_UnityEngine_ParticleSystem_MinMaxGradient.cs: 43f3622b6ae25a6921a8181d72a51958 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/PropertyProvider_UnityEngine_UI_Slider_SliderEvent.cs: 58c372a4711adfe3b86695c242c16ec9 -> 
+  custom:scripting/monoscript/fileName/PropertyProvider_UnityEngine_UI_FontData.cs: 04a625f3ae6938c0e2f2b09c7e021885 -> 
+  custom:scripting/monoscript/fileName/PropertyProvider_UnityEngine_UI_Dropdown_DropdownEvent.cs: 45a3e6ca66368ac9cf0c5924a29d53e1 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/PropertyProvider_TMPro_VerticalAlignmentOptions.cs: e9b0bd2736e9675a8e10569d4105f860 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/PropertyProvider_UnityEngine_Events_UnityEvent.cs: d54f14228eba4b078b8a0723bcb346b5 -> 
+  custom:scripting/monoscript/fileName/PropertyProvider_TMPro_TMP_InputField_SubmitEvent.cs: 7e43cbdf611f91a78865d953ef6f2756 -> 
+  custom:scripting/monoscript/fileName/PropertyProvider_UnityEngine_UI_SpriteState.cs: 02d31574bb2528afbfd2ff98e34f1cc8 -> 
+  custom:scripting/monoscript/fileName/PropertyProvider_TMPro_TMP_Dropdown_DropdownEvent.cs: 0ab6d2752875a63622b5bc5b51d0da2f -> 
+  custom:scripting/monoscript/fileName/PropertyProvider_UnityEngine_UI_AnimationTriggers.cs: 3e792109a275f903c30b2890bb9787d8 -> 
+  custom:scripting/monoscript/fileName/PropertyProvider_VRM_BlendShapeClip.cs: 42373a6999af67218153c5d1d52252fb -> 
+  custom:scripting/monoscript/fileName/PropertyProvider_UnityEngine_TextCore_Glyph.cs: b789eb11fb5963ffba38575f9659984d -> 
+  custom:scripting/monoscript/fileName/PropertyProvider_UnityEngine_UI_MaskableGraphic_CullStateChangedEvent.cs: f51322439471efeea94bdd65b276e2af -> 
+  custom:scripting/monoscript/fileName/PropertyProvider_UnityEngine_ParticleSystem_MinMaxCurve.cs: e4c02bf08300d3b3dcc31ee9f87170ce -> 
+  custom:scripting/monoscript/fileName/PropertyProvider_TMPro_TMP_SpriteGlyph.cs: a88e9c798874d2eb33a1aa1b23b3ca7a -> 
+  custom:scripting/monoscript/fileName/PropertyProvider_UniHumanoid_MuscleDebug_Muscle.cs: 71eb74a3d65cb46eeff552215980aa23 -> 
+  custom:scripting/monoscript/fileName/PropertyProvider_UnityEngine_Events_UnityEventBase.cs: da067928ef8b8c94f9e81d646bc61a1f -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/PropertyProvider_UnityEngine_TextCore_GlyphRect.cs: b870b02cfae947d6a3b6bb70e20675d1 -> 
+  custom:scripting/monoscript/fileName/PropertyProvider_UnityEngine_TextCore_Text_SpriteCharacter.cs: 90dd093cb2912cace82eecc514c56b6b -> 
+  custom:scripting/monoscript/fileName/PropertyProvider_TMPro_TMP_InputField_TouchScreenKeyboardEvent.cs: c2e6705b26a95938b5044b7c0dfa9be4 -> 
+  custom:scripting/monoscript/fileName/PropertyProvider_TMPro_HorizontalAlignmentOptions.cs: 9105e31080cbd3289d0879cacacf5427 -> 
+  custom:scripting/monoscript/fileName/PropertyProvider_UnityEngine_UI_Dropdown_OptionDataList.cs: d2859f95d2197c8bff02dc8536d37ce6 -> 
+  custom:scripting/monoscript/fileName/PropertyProvider_UnityEngine_UI_Navigation.cs: 9b711831434d96c562ac181d234e72cc -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/PropertyProvider_UnityEngine_UI_InputField_OnChangeEvent.cs: c98d2e331388125826417bcc3916b228 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: e0f5881ce6de89375996310bfc053f62 -> 7bb3bc7327edf0447830f6fa6260f186
+  custom:scripting/monoscript/fileName/PropertyProvider_TMPro_TMP_InputField_OnChangeEvent.cs: e77f8a421bb747611cfd723a75bbd230 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 80.951740 seconds.
+  path: Assets/Assets/fujiwara chika/fujiwara chika.Materials/F00_000_00_EyeHighlight_00_EYE.asset
+  artifactKey: Guid(c775ca89f689d40e8bfeaf1fc3bee80c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/fujiwara chika/fujiwara chika.Materials/F00_000_00_EyeHighlight_00_EYE.asset using Guid(c775ca89f689d40e8bfeaf1fc3bee80c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'c18da3de153b30ca810545292972015b') in 0.079655 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Assets/fujiwara chika/fujiwara chika.Materials/F00_001_01_Accessory_Tie_01_CLOTH.asset
+  artifactKey: Guid(8859783eb9a5d4848ad91bf91b78c120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/fujiwara chika/fujiwara chika.Materials/F00_001_01_Accessory_Tie_01_CLOTH.asset using Guid(8859783eb9a5d4848ad91bf91b78c120) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'bba53e468ebee0c297e86a51e3a8df1c') in 0.019825 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Assets/fujiwara chika/fujiwara chika.Materials/F00_000_Hair_00_HAIR_02.asset
+  artifactKey: Guid(cd412437b8c16464f99544f273511a06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/fujiwara chika/fujiwara chika.Materials/F00_000_Hair_00_HAIR_02.asset using Guid(cd412437b8c16464f99544f273511a06) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '3c148e24928ad73d54e4b3fc66ba9c37') in 0.029815 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: ¦]¬°°õ¦æºüµ²§ô©ÎÀ³¥Îµ{¦¡­n¨D¡A©Ò¥H¤w¤¤¤î I/O ¾Þ§@¡C
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
